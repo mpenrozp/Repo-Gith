@@ -1,0 +1,17 @@
+set1={1,2,3}
+print(set1)
+set2={1,1,1,2,3}
+print(set2)
+set3={1,2.0,"texto"}
+print(set3)
+set1.add(4)
+print(set1)
+set1.update([4,5,6])
+print(set1)
+print(len(set1))
+set1.discard(2)
+print(set1)
+set1.remove(3)
+print(set1)
+set1.clear()
+print(set1)
